@@ -1,0 +1,43 @@
+body {
+    background-color: #98DBC6;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family : Arial,'ＭＳ Ｐゴシック', sans-serif;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 130px;
+    padding-top: 30px;
+    border-color: #E6D72A;
+    border-width: 5px;
+    background-color: #5BC8AC;
+    width: 500px;
+    height: 200px;
+}
+
+body h1 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.file {
+    position: relative;
+    right: 20px;
+}
+
+.message {
+    font-size: 10px;
+    position: relative;
+    left: 125px;
+}
+
+.download {
+    margin-right: 80px;
+}
+
+.download, .submit {
+    margin-top: 70px;
+}

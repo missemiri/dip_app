@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dip Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles16.css') }}">
+</head>
+<body>
+    <div class = 'container'>
+        <form method="post">
+            <input class="download", type="submit", name='download', value='結果をダウンロード'>
+            <input type="submit", name='download', value='戻る'>
+        </form>
+        <p class='message'>
+            {{message}}
+        </p>
+    </div>
+</body>
+</html>

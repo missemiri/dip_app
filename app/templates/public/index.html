@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dip Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles16.css') }}">
+</head>
+<body>
+    <div class='container'>
+        <h1>企業の求人原稿をもとに応募数を予測しよう！</h1>
+        <form method="post", enctype=multipart/form-data>
+            <input class = 'file', type="file", name='file', accept='.csv'>
+            <input class = 'predict', type="submit", name='file', value='推論を開始'>
+        </form>
+        <p class='message'>
+            {{message}}
+        </p>
+    </div>
+</body>
+</html>
